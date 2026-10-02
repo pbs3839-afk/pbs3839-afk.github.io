@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/App.css">
+    <link rel="stylesheet" href="CSS/Editor.css">
+    <link rel="stylesheet" href="CSS/List.css">
+    <link rel="stylesheet" href="CSS/TodoItem.css">
+    <link rel="stylesheet" href="CSS/Header.css">
+</head>
+<body>
+    <div class="App">
+        <header class="Header">
+            <h3>오늘의 Plan😊</h3>
+            <h1></h1>
+        </header>
+
+        <form class="Editor">
+            <input
+                id="todo-input"
+                type="text"
+                placeholder="새로운 할 일을 입력하세요"
+    >
+            <button type="submit">추가</button>
+</form>
+<section class="List">
+  <h3>Todo List 😎</h3>
+
+  <input
+    id="keyword"
+    type="text"
+    placeholder="검색어를 입력하세요"
+  >
+
+  <div class="todos_wrapper"></div>
+</section>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html> 
